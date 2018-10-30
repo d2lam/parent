@@ -8,3 +8,6 @@ jobs:
         image: node:8
         steps:
             - echo: echo hello
+   requires:
+      - ~pr
+      - ~commit
