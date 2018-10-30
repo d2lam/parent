@@ -1,0 +1,10 @@
+childPipelines:
+   scmUrls:
+      - git@github.com:d2lam/mytest2
+      - git@github.com:d2lam/testexternal
+
+jobs:
+    main:
+        image: node:8
+        steps:
+            - echo: echo hello
